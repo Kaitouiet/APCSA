@@ -2,6 +2,12 @@
 comment0.target=BasicMethods
 comment1.params=
 comment1.target=void\ main()
-comment2.params=i\ j
-comment2.target=int\ add(int,\ int)
-numComments=3
+comment2.params=i\ j\ k
+comment2.target=int\ add(int,\ int,\ int)
+comment3.params=a\ b
+comment3.target=int\ substract(int,\ int)
+comment4.params=q\ p
+comment4.target=int\ multiply(int,\ int)
+comment5.params=u\ y
+comment5.target=int\ divide(int,\ int)
+numComments=6
