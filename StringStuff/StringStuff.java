@@ -23,9 +23,8 @@ public class StringStuff{
         System.out.println ("Hi there :) Enter any text you want here");
         //Create a variable and store the users input into that variable
         Scanner t = new Scanner(System.in);
-        System.out.println (t.nextLine());
         String a = t.nextLine();
-        //Tell the user how long their message was
+        //Tell the user how long their message was  
         System.out.println ("Length of message is:  "+a.length());
         //Ask the user how many characters they want to remove from the front of the message
         System.out.println ("How many characters do you want to remove from the front of your text? :)");
@@ -34,20 +33,20 @@ public class StringStuff{
         //Tell the user what the new message is
         //For example, if they enter 4, your program should say: 
         //"The message without the first 4 characters is " and then the shortened message
-        System.out.println ("Your message without first " +zZ+  "character is: " + a.substring(zZ));
+        System.out.println ("Your message without first " +zZ+  " character(s) is: " + a.substring(zZ));
         //Ask the user how many characters they want to remove from the back of the message
         System.out.println ("HEY! Now it's time for you to do more stuff. Now how many characters do you want to remove from the back of your text?");
         //Create a variable and store the users input into that variable
         int love = t.nextInt();
         //Tell the user what the new message is, with characters removed from both the front and the back.
         //fyi - this last one is a little more challenging
-        
+        System.out.println ("With characters removed from both the front and the back, the new message is: " + a.substring(zZ,a.length()-love));
         //Ask the user to enter a letter that occurs in the message
-
+        System.out.println ("Now give me a letter that is in that text!");
         //Create a variable and store the users input into that variable
-
+        char hate = t.next().charAt(0);
         //Tell the user when that character first appears in the message
-
+        System.out.println ("The first occurence of the letter " + hate + " is at index:  "+ a.indexOf(hate));
         //Finished with more time?
         //https://docs.oracle.com/javase/8/docs/api/java/lang/String.html
         //Ctrl-F "replace" and check out the fun replace methods
