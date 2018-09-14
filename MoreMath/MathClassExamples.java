@@ -24,15 +24,14 @@ public class MathClassExamples{
         for (int j=0; j<10; j++){
             System.out.println (Math.random());
         }
-        
-        System.out.println ("This is going to be a random number from 10 to 15:" + (int)(Math.random() *5 + 10));
-                
-             /* See if you can use Math.random() to do the following: 
-            - create a number between 10 and 15 
-            - create a number between 123 and 136
 
-             */
+        System.out.println ("This is going to be a random number from 10 to 15: " + (int)(Math.random() *5 + 10) + " :)");
+        System.out.println ("This is going to be a random number from 123 to 136: " + (int)(Math.random() *13 + 123) + " :)");
+        /* See if you can use Math.random() to do the following: 
+        - create a number between 10 and 15 
+        - create a number between 123 and 136
 
-        
+         */
+
     }
 }
