@@ -15,7 +15,7 @@ public class Initials {
 
         // Display the initials.
         System.out.println("Initials is "
-            + first.charAt(0)  // we usse charAt to get first character
+            + first.charAt(0)  // we use charAt to get first character
             + middle.charAt(0)
             + last.charAt(0));
     }
