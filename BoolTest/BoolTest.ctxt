@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=BoolTest
+comment1.params=evennumbers
+comment1.target=boolean\ even(int)
+comment2.params=opp
+comment2.target=boolean\ opposite(boolean)
+numComments=3
