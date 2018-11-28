@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=LotteryDrawing
+comment1.params=
+comment1.target=LotteryDrawing()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ LotteryDrawing\r\n
+comment2.params=userTix
+comment2.target=boolean\ doesBonusNumberMatch(LotteryTicket)
+comment2.text=\r\n\ \ \ \ public\ int\ numOfFirstSetMatches(LotteryTicket\ userTix)\r\n\ \ \ \ {\r\n\ \ \ \ return\ \ //\ put\ your\ code\ here\r\n\ \ \ \ }\r\n
+numComments=3
